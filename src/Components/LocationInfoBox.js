@@ -17,8 +17,8 @@ const LocationInfoBox = ({ info }) => {
             <h2><strong> {info.address} ({info.car_park_no}) </strong> </h2>
             <ul>
                 <li> CAR LOTS: <strong> {info.cLots} </strong> </li>
-                <li> MOTORCYCLE LOTS: <strong> {info.yLots} </strong> </li>
-                <li> HEAVY VEHICLE LOTS: <strong> {info.hLots} </strong> </li>
+                {/* <li> MOTORCYCLE LOTS: <strong> {info.yLots} </strong> </li>
+                <li> HEAVY VEHICLE LOTS: <strong> {info.hLots} </strong> </li> */}
             </ul>
             <button className="button" onClick={() => { setExpand(!expand) }}>
                 + </button>
